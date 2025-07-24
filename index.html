@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Shop</title>
-    <script src="https://kit.fontawesome.com/5268697871.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5268697871.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/flower.css" />
   </head>
   <body>
@@ -14,13 +23,28 @@
 
         <div class="nav-links">
           <ul class="links display-flex">
-            <li><a href="http://">Home</a></li>
-            <li><a href="http://">Shop</a></li>
-            <li><a href="http://">About Us</a></li>
-            <li><a href="http://"><i class="fa-solid fa-cart-flatbed-suitcase"></i> Cart ($56) </a></li>
+            <li class="home inter-font"><a href="http://">Home</a></li>
+            <li class="shop inter-font"><a href="http://">Shop</a></li>
+            <li class="about inter-font"><a href="http://">About Us</a></li>
+            <li class="cart inter-font">
+              <a href="http://"
+                ><i class="fa-solid fa-cart-flatbed-suitcase"></i> Cart ($56)
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
+      <div class="banner display-flex">
+        <div class="banner-content">
+          <h1 class="banner-title noto-serif-font">ALWAYS <span class="fresh">FRESH FLOWERS</span></h1>
+          <p class="banner-details inter-font">
+            Experience the charm and aroma of our vibrant flower collection. From timeless roses to rare, stunning blossoms, we provide a diverse selection of fresh blooms ideal for every celebration.
+          </p>
+        </div>
+        <div class="banner-image">
+          <img src="images/hero-flower.png" alt="" />
+        </div>
+      </div>
     </header>
     <main></main>
     <footer></footer>

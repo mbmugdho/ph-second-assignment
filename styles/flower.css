@@ -1,3 +1,23 @@
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -31,10 +51,38 @@
 
 .nav-links li a{
     text-decoration: none;
-    color: black;
 }
 
 .links{
     gap: 48px;
-    
+}
+.home a,
+.cart a {
+  color: black;
+}
+
+.shop a,
+.about a {
+  color: rgba(137, 135, 161, 1);
+}
+
+
+/* banner section */
+
+.banner{
+    margin-top: 120px;
+    align-items: flex-end;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.fresh{
+    color: rgba(233, 90, 8, 1);
+}
+
+.banner-details{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.40rem;
 }
