@@ -1,38 +1,31 @@
-
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-
-.inter-font{
+.inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    max-width: 1280px;
-    margin: 0 auto;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.hero-section{
-    margin-top: 30px;
+.hero-section {
+  margin-top: 30px;
 }
-
-
 
 /* Shared styles */
 .display-flex {
@@ -45,16 +38,16 @@
   align-items: center;
 }
 
-.nav-links ul li{
-    list-style: none;
+.nav-links ul li {
+  list-style: none;
 }
 
-.nav-links li a{
-    text-decoration: none;
+.nav-links li a {
+  text-decoration: none;
 }
 
-.links{
-    gap: 48px;
+.links {
+  gap: 48px;
 }
 .home a,
 .cart a {
@@ -66,23 +59,121 @@
   color: rgba(137, 135, 161, 1);
 }
 
-
 /* banner section */
 
-.banner{
-    margin-top: 120px;
-    align-items: flex-end;
+.banner {
+  margin-top: 120px;
+  align-items: flex-end;
 }
 
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
 }
-.fresh{
-    color: rgba(233, 90, 8, 1);
+.orange {
+  color: rgba(233, 90, 8, 1);
 }
 
-.banner-details{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.40rem;
+.banner-details {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+}
+
+/* our plants section */
+.our-plants {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+
+.section-details {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.4rem;
+}
+
+/* card section */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+.card {
+  width: 270px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.flower-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+  margin: 15px 0 5px;
+}
+
+.price {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #f4511e;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 576px) {
+  .home a,
+  .shop a,
+  .about a {
+    display: none;
+  }
+  .navbar {
+    margin: 0 16px;
+    justify-content: space-between;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    margin: 28px 16px 0 16px;
+  }
+  .banner-title {
+    font-size: 2.8rem;
+  }
+  .banner-image {
+    order: -1;
+  }
+  .section-details {
+    margin: 0 16px 50px;
+    align-items: center;
+  }
+
+  .card-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 10px;
+    gap: 10px;
+  }
 }
