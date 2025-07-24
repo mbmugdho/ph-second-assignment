@@ -268,6 +268,41 @@
   font-size: 0.9rem;
 }
 
+/* joinus section */
+.joinus{
+    background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
+    height: 530px;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+}
+
+.joinus-content{
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 400px;
+}
+
+.join-title{
+    font-size: 3.10rem;
+    color: white;
+}
+
+.form input{
+    padding: 10px 200px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-subscribe{
+    padding: 10px 20px;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 576px) {
   .home a,
   .shop a,
@@ -317,5 +352,20 @@
   }
   .title-zabo{
     margin-top: 80px;
+  }
+  .deal-details{
+    margin: 0 10px;
+  }
+  .joinus{
+    width: 576px;
+  }
+  .join-title{
+    font-size: 1.5rem;
+  }
+  .joinus-content{
+    margin-left: 150px;
+  }
+  .form input{
+    padding:10px;
   }
 }
