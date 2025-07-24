@@ -143,6 +143,39 @@
   color: black;
 }
 
+
+/* plant-lover section */
+.plant-lover{
+    margin-top: 210px;
+    align-items: center;
+}
+.badge{
+    margin-top: -550px;
+    margin-left: -150px;
+}
+.trusted-badge{
+animation: spin 3s linear infinite;
+transform-origin: center;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.lover-title{
+    font-size: 3.10rem;
+    font-weight: 700;
+}
+
+.lover-details{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 576px) {
   .home a,
   .shop a,
