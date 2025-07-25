@@ -249,7 +249,6 @@
   position: relative;
   z-index: 1;
   margin: 0;
-  
 }
 .card-title {
   font-size: 1.2rem;
@@ -257,8 +256,8 @@
   margin-top: 100px;
   margin-bottom: 8px;
 }
-.title-zabo{
-    margin-top: 220px;
+.title-zabo {
+  margin-top: 220px;
 }
 
 .shop-now {
@@ -269,74 +268,72 @@
 }
 
 /* joinus section */
-.joinus{
-    background-image: url(../images/news-letter-bg.png);
-    background-repeat: no-repeat;
-    width: 1440px;
-    margin: 0 auto;
-    height: 530px;
-    text-align: center;
-    position: relative;
-    margin-top: 80px;
+.joinus {
+  background-image: url(../images/news-letter-bg.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  margin: 0 auto;
+  height: 530px;
+  text-align: center;
+  position: relative;
+  margin-top: 80px;
 }
 
-.joinus-content{
-   position: absolute;
-   margin-top: 250px;
-   margin-left: 400px;
+.joinus-content {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 400px;
 }
 
-.join-title{
-    font-size: 3.10rem;
-    color: white;
+.join-title {
+  font-size: 3.1rem;
+  color: white;
 }
 
-.form input{
-    padding: 10px 200px;
-    border: none;
-    border-radius: 10px;
+.form input {
+  padding: 10px 200px;
+  border: none;
+  border-radius: 10px;
 }
-.btn-subscribe{
-    padding: 10px 20px;
-    background-color: rgba(233, 90, 8, 1);
-    color: white;
-    border: none;
-    border-radius: 5px;
+.btn-subscribe {
+  padding: 10px 20px;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
-.btn-subscribe:hover{
-background-color: white;
-color: black;
+.btn-subscribe:hover {
+  background-color: white;
+  color: black;
 }
 /* footer section */
-.footer{
+.footer {
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.brand-details{
-   font-size: 1.4rem;
-   color: rgba(0, 0, 0, 0.5);
-   
+.brand-details {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
 }
-.footer-links ul{
+.footer-links ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
-.footer-links li{
+.footer-links li {
   list-style: none;
 }
-.footer-links li a{
+.footer-links li a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
-.footer-icon{
- gap: 25px;
- align-items:baseline;
+.footer-icon {
+  gap: 25px;
+  align-items: baseline;
 }
 
-
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .home a,
   .shop a,
   .about a,
@@ -378,34 +375,34 @@ color: black;
   .plant-lover-details {
     margin: 0 20px;
   }
-  .deal-card-container{
+  .deal-card-container {
     grid-template-columns: 1fr;
   }
-  .card-zabo{
+  .card-zabo {
     height: 200px;
   }
-  .title-zabo{
+  .title-zabo {
     margin-top: 80px;
   }
-  .deal-details{
+  .deal-details {
     margin: 0 10px;
   }
-  .joinus{
+  .joinus {
     width: 576px;
   }
-  .join-title{
+  .join-title {
     font-size: 1.5rem;
   }
-  .joinus-content{
+  .joinus-content {
     margin-left: 150px;
   }
-  .form input{
-    padding:10px;
+  .form input {
+    padding: 10px;
   }
-  .footer{
+  .footer {
     margin-left: 20px;
   }
-  .footer-links ul{
+  .footer-links ul {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 20px;
     margin-bottom: 20px;
