@@ -333,7 +333,7 @@
   align-items: baseline;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .home a,
   .shop a,
   .about a,
@@ -369,9 +369,7 @@
     margin: 0 10px;
     gap: 10px;
   }
-  .card-container > .card-image{
-    width: 100%;
-  }
+
   .plant-lover {
     margin: 50px 20px 18px;
   }
@@ -391,7 +389,7 @@
     margin: 0 10px;
   }
   .joinus {
-    width: 100%;
+    width: 576px;
     height: 275px;
   }
   .join-title {
