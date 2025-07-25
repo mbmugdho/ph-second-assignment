@@ -299,9 +299,42 @@
 .btn-subscribe{
     padding: 10px 20px;
     background-color: rgba(233, 90, 8, 1);
+    color: white;
     border: none;
     border-radius: 5px;
 }
+.btn-subscribe:hover{
+background-color: white;
+color: black;
+}
+/* footer section */
+.footer{
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.brand-details{
+   font-size: 1.4rem;
+   color: rgba(0, 0, 0, 0.5);
+   
+}
+.footer-links ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.footer-links li{
+  list-style: none;
+}
+.footer-links li a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-icon{
+ gap: 25px;
+ align-items:baseline;
+}
+
 
 @media screen and (max-width: 576px) {
   .home a,
@@ -316,7 +349,8 @@
   }
 
   .banner,
-  .plant-lover {
+  .plant-lover,
+  .footer {
     flex-direction: column;
   }
   .banner-content {
@@ -367,5 +401,13 @@
   }
   .form input{
     padding:10px;
+  }
+  .footer{
+    margin-left: 20px;
+  }
+  .footer-links ul{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
